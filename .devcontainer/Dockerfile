@@ -16,6 +16,13 @@ RUN	<<-EOF
 	chown -R ${USER_NAME} ${GEM_HOME}
 EOF
 
+RUN <<-EOF
+  mkdir -p /home/${USER_NAME}/.gem
+  touch /home/${USER_NAME}/.gem/credentials
+  chown ${USER_NAME} /home/${USER_NAME}/.gem/credentials
+  chmod 600 /home/${USER_NAME}/.gem/credentials
+EOF
+
 USER ${USER_NAME}
 
 RUN <<-EOF

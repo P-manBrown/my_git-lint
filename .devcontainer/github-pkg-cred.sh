@@ -1,4 +1,1 @@
-set -e
-
-mkdir -p ~/.gem
-cp --update ./.devcontainer/secrets/credentials ~/.gem/credentials
+cp -f ./.devcontainer/secrets/credentials ~/.gem/credentials
