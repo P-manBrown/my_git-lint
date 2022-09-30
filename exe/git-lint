@@ -1,0 +1,6 @@
+#! /usr/bin/env ruby
+# frozen_string_literal: true
+
+require "my_git/lint"
+
+MyGit::Lint::CLI::Shell.new.call ARGV

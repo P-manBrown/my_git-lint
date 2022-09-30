@@ -1,0 +1,363 @@
+= Versions
+
+== 4.5.0 (2022-09-16)
+
+* Added Infusible gem - Brooke Kuhlmann
+* Updated README sections - Brooke Kuhlmann
+* Updated to Dry Container 0.11.0 - Brooke Kuhlmann
+* Removed Auto Injector - Brooke Kuhlmann
+* Refactored implementation to use Infusible syntax - Brooke Kuhlmann
+
+== 4.4.0 (2022-08-13)
+
+* Fixed RuboCop Style/StabbyLambdaParentheses issues - Brooke Kuhlmann
+* Added Circle CI SimpleCov artifacts - Brooke Kuhlmann
+* Updated SimpleCov configuration to use filters and minimum coverage - Brooke Kuhlmann
+* Updated to Auto Injector 0.7.0 - Brooke Kuhlmann
+* Updated to Spek 0.5.0 - Brooke Kuhlmann
+* Updated to Zeitwerk 2.6.0 - Brooke Kuhlmann
+* Removed registration of duplicate keys within containers - Brooke Kuhlmann
+* Removed unused analyzer code - Brooke Kuhlmann
+
+== 4.3.0 (2022-07-17)
+
+* Fixed RuboCop Layout/LineContinuationLeadingSpace issues - Brooke Kuhlmann
+* Updated to Auto Injector 0.6.0 - Brooke Kuhlmann
+* Updated to Caliber 0.11.0 - Brooke Kuhlmann
+* Updated to Cogger 0.2.0 - Brooke Kuhlmann
+* Updated to Debug 1.6.0 - Brooke Kuhlmann
+* Updated to Dry Container 0.10.0 - Brooke Kuhlmann
+* Updated to Git+ 1.4.0 - Brooke Kuhlmann
+* Updated to Refinements 9.6.0 - Brooke Kuhlmann
+* Updated to Runcom 8.5.0 - Brooke Kuhlmann
+* Updated to Spek 0.4.0 - Brooke Kuhlmann
+* Removed Bundler Leak gem - Brooke Kuhlmann
+* Removed Rakefile Bundler gem tasks - Brooke Kuhlmann
+
+== 4.2.0 (2022-05-15)
+
+* Fixed commit subject prefix from having no or invalid delimiters - Brooke Kuhlmann
+* Added configuration settings delimiter - Brooke Kuhlmann
+* Added default configuration for commit subject prefix delimiter - Brooke Kuhlmann
+
+== 4.1.0 (2022-05-07)
+
+* Added gemspec funding URI - Brooke Kuhlmann
+* Updated to Auto Injector 0.5.0 - Brooke Kuhlmann
+* Updated to Caliber 0.8.0 - Brooke Kuhlmann
+* Updated to Cogger 0.1.0 - Brooke Kuhlmann
+* Updated to Refinements 9.4.0 - Brooke Kuhlmann
+* Updated to Runcom 8.4.0 - Brooke Kuhlmann
+* Updated to Spek 0.3.0 - Brooke Kuhlmann
+
+== 4.0.1 (2022-04-23)
+
+* Added GitHub sponsorship configuration - Brooke Kuhlmann
+* Updated to Caliber 0.6.0 - Brooke Kuhlmann
+* Updated to Caliber 0.7.0 - Brooke Kuhlmann
+* Updated to Git+ 1.3.0 - Brooke Kuhlmann
+* Updated to Ruby 3.1.2 - Brooke Kuhlmann
+
+== 4.0.0 (2022-04-10)
+
+* Fixed Circle CI configuration to check Gemfile and gemspec - Brooke Kuhlmann
+* Added Auto Injector gem - Brooke Kuhlmann
+* Added Auto Injector import - Brooke Kuhlmann
+* Added CLI actions container - Brooke Kuhlmann
+* Added CLI actions import - Brooke Kuhlmann
+* Added Cogger gem - Brooke Kuhlmann
+* Added commit systems container - Brooke Kuhlmann
+* Added commit systems import - Brooke Kuhlmann
+* Updated implementation to auto-inject dependencies - Brooke Kuhlmann
+* Updated to Caliber 0.5.0 - Brooke Kuhlmann
+* Updated to Debug 1.5.0 - Brooke Kuhlmann
+* Removed Travis CI configuration - Brooke Kuhlmann
+* Removed commits container - Brooke Kuhlmann
+* Refactored RSpec application container as dependencies - Brooke Kuhlmann
+* Refactored RSpec commit system shared context as dependencies - Brooke Kuhlmann
+* Refactored specs to cogger - Brooke Kuhlmann
+
+== 3.3.2 (2022-03-03)
+
+* Fixed Hippocratic License to be 2.1.0 version - Brooke Kuhlmann
+* Fixed Rubocop RSpec issues with boolean and nil identity checks - Brooke Kuhlmann
+* Updated to Caliber 0.2.0 - Brooke Kuhlmann
+* Updated to Spek 0.2.0 - Brooke Kuhlmann
+
+== 3.3.1 (2022-02-20)
+
+* Fixed commit subject prefix to detect bang prefix in CI - Brooke Kuhlmann
+* Added environment to application container - Brooke Kuhlmann
+* Updated GitHub Action workflow to match documentation - Brooke Kuhlmann
+* Updated README to use checkout label for GitHub Action - Brooke Kuhlmann
+* Updated commits container to merge registry from application container - Brooke Kuhlmann
+* Updated to Ruby 3.1.1 - Brooke Kuhlmann
+
+== 3.3.0 (2022-02-12)
+
+* Added Caliber - Brooke Kuhlmann
+* Updated to RSpec 3.11.0 - Brooke Kuhlmann
+* Updated to Refinements 9.2.0 - Brooke Kuhlmann
+
+== 3.2.0 (2022-02-06)
+
+* Added Spek gem - Brooke Kuhlmann
+* Updated implementation to leverage Spek presenter - Brooke Kuhlmann
+* Updated to Runcom 8.2.0 - Brooke Kuhlmann
+* Removed README badges - Brooke Kuhlmann
+* Removed gemspec safe defaults - Brooke Kuhlmann
+
+== 3.1.0 (2022-01-23)
+
+* Added Ruby version to Gemfile - Brooke Kuhlmann
+* Added identity to gem specification - Brooke Kuhlmann
+* Updated to Git+ 1.1.0 - Brooke Kuhlmann
+* Updated to Reek 6.1.0 - Brooke Kuhlmann
+* Updated to Refinements 9.1.0 - Brooke Kuhlmann
+* Updated to Rubocop 1.25.0 - Brooke Kuhlmann
+* Refactored Git ignore - Brooke Kuhlmann
+
+== 3.0.2 (2022-01-13)
+
+* Updated Zeitwerk configuration to ignore all Rake related code - Brooke Kuhlmann
+
+== 3.0.1 (2022-01-01)
+
+* Updated README policy section links - Brooke Kuhlmann
+* Updated changes as versions documentation - Brooke Kuhlmann
+* Removed RSpec gem version matcher - Brooke Kuhlmann
+* Removed code of conduct and contributing files - Brooke Kuhlmann
+* Refactored CLI core parser to use version boolean - Brooke Kuhlmann
+
+== 3.0.0 (2021-12-27)
+
+* Fixed Commit Body Phrase analyzer defaults - Brooke Kuhlmann
+* Fixed Hippocratic license structure - Brooke Kuhlmann
+* Fixed README changes and credits sections - Brooke Kuhlmann
+* Fixed RSpec/Dialect issues - Brooke Kuhlmann
+* Fixed Reek IrresponsibleModule issues - Brooke Kuhlmann
+* Fixed contributing documentation - Brooke Kuhlmann
+* Added CLI analyze branch action - Brooke Kuhlmann
+* Added CLI analyze commit action - Brooke Kuhlmann
+* Added CLI analyze parser - Brooke Kuhlmann
+* Added CLI config action - Brooke Kuhlmann
+* Added CLI core parser - Brooke Kuhlmann
+* Added CLI hook action - Brooke Kuhlmann
+* Added CLI parser - Brooke Kuhlmann
+* Added CLI shell - Brooke Kuhlmann
+* Added Dry Container - Brooke Kuhlmann
+* Added Git Annex to general style guide - Brooke Kuhlmann
+* Added README community link - Brooke Kuhlmann
+* Added RSpec CLI parser shared example - Brooke Kuhlmann
+* Added RSpec gem vesion matcher - Brooke Kuhlmann
+* Added Rakefile Bundler gem tasks - Brooke Kuhlmann
+* Added Zeitwerk - Brooke Kuhlmann
+* Added application configuration content - Brooke Kuhlmann
+* Added application configuration defaults - Brooke Kuhlmann
+* Added application configuration loader - Brooke Kuhlmann
+* Added application container - Brooke Kuhlmann
+* Added collector clearing - Brooke Kuhlmann
+* Added commit body tracker shorthand analyzer - Brooke Kuhlmann
+* Added commits container - Brooke Kuhlmann
+* Added configuration content find by setting - Brooke Kuhlmann
+* Added configuration setting for analyzers - Brooke Kuhlmann
+* Added gemspec MFA opt in requirement - Brooke Kuhlmann
+* Added project citation information - Brooke Kuhlmann
+* Updated CLI analyze command to only accept a single SHA - Brooke Kuhlmann
+* Updated Commit Body Line Length analyzer to use maximum setting - Brooke Kuhlmann
+* Updated Commit Subject Length analyzer to use maximum setting - Brooke Kuhlmann
+* Updated GitHub issue template - Brooke Kuhlmann
+* Updated Rake tasks to use new CLI shell - Brooke Kuhlmann
+* Updated Rubocop sub-project gem dependencies - Brooke Kuhlmann
+* Updated branches namespace as commits namespace - Brooke Kuhlmann
+* Updated loader to load analyzer settings - Brooke Kuhlmann
+* Updated reporters to answer implicit string - Brooke Kuhlmann
+* Updated runner as analyzer - Brooke Kuhlmann
+* Updated runner to answer both collector and reporter - Brooke Kuhlmann
+* Updated runner to use container - Brooke Kuhlmann
+* Updated to Amazing Print 1.4.0 - Brooke Kuhlmann
+* Updated to Debug 1.4.0 - Brooke Kuhlmann
+* Updated to Git+ 0.8.0 - Brooke Kuhlmann
+* Updated to Git+ 1.0.0 - Brooke Kuhlmann
+* Updated to Hippocratic License 3.0.0 - Brooke Kuhlmann
+* Updated to Pastel 0.8.0 - Brooke Kuhlmann
+* Updated to Refinements 8.5.0 - Brooke Kuhlmann
+* Updated to Refinements 9.0.0 - Brooke Kuhlmann
+* Updated to Rubocop 1.24.0 - Brooke Kuhlmann
+* Updated to Ruby 3.0.3 - Brooke Kuhlmann
+* Updated to Ruby 3.1.0 - Brooke Kuhlmann
+* Updated to Runcom 8.0.0 - Brooke Kuhlmann
+* Updated to SimpleCov 0.21.2 - Brooke Kuhlmann
+* Removed Gemsmith depenendecy - Brooke Kuhlmann
+* Removed Reek configuration - Brooke Kuhlmann
+* Removed Thor support - Brooke Kuhlmann
+* Removed Travis CI integration - Brooke Kuhlmann
+* Removed abstract analyzer descendants method - Brooke Kuhlmann
+* Removed analyzer defaults - Brooke Kuhlmann
+* Removed commit body issue tracker link analyzer - Brooke Kuhlmann
+* Removed custom refinements - Brooke Kuhlmann
+* Removed hash refinement from collector - Brooke Kuhlmann
+* Removed notes from pull request template - Brooke Kuhlmann
+* Refactored RSpec parser shared example - Brooke Kuhlmann
+* Refactored binary to exe instead of bin directory - Brooke Kuhlmann
+* Refactored configuration loader to use client instead of handler - Brooke Kuhlmann
+* Refactored gemspec to use identity summary - Brooke Kuhlmann
+* Refactored implementation to use punning - Brooke Kuhlmann
+* Refactored implementation to use refinements - Brooke Kuhlmann
+
+== 2.4.0 (2021-10-03)
+
+* Fixed README link to Rakefile - Brooke Kuhlmann
+* Fixed Rubocop Style/SelectByRegexp issue - Brooke Kuhlmann
+* Added Debug gem - Brooke Kuhlmann
+* Updated to Refinements 8.4.0 - Brooke Kuhlmann
+* Removed Pry gems - Brooke Kuhlmann
+* Removed RSpec spec helper GC automatic compaction - Brooke Kuhlmann
+
+== 2.3.3 (2021-09-05)
+
+* Fixed Rubocop Style/MutableConstant issue - Brooke Kuhlmann
+* Updated README project description - Brooke Kuhlmann
+* Updated Rubocop gem dependencies - Brooke Kuhlmann
+* Updated to Amazing Print 1.3.0 - Brooke Kuhlmann
+* Removed RubyCritic and associated CLI option - Brooke Kuhlmann
+
+== 2.3.2 (2021-08-08)
+
+* Updated Git commit subjec prefix analyzer documentation - Brooke Kuhlmann
+* Updated to Git+ 0.6.0 - Brooke Kuhlmann
+* Removed Bundler Audit - Brooke Kuhlmann
+
+== 2.3.1 (2021-07-11)
+
+* Updated to Ruby 3.0.2 - Brooke Kuhlmann
+* Removed Zeitwerk - Brooke Kuhlmann
+
+== 2.3.0 (2021-07-05)
+
+* Added Zeitwerk gem - Brooke Kuhlmann
+* Added Zeitwerk loader - Brooke Kuhlmann
+* Added commit subject prefix support for amend prefixes - Brooke Kuhlmann
+* Updated to Git+ 0.5.0 - Brooke Kuhlmann
+* Updated to using Git+ String refinements - Brooke Kuhlmann
+* Refactored implementation to use endless methods - Brooke Kuhlmann
+
+== 2.2.1 (2021-06-04)
+
+* Fixed Rubocop Layout/RedundantLineBreak issues - Brooke Kuhlmann
+* Updated README to improve refactoring definition - Brooke Kuhlmann
+* Updated README to point to Alchemists code reviews article - Brooke Kuhlmann
+* Updated to Rubocop 1.14.0 - Brooke Kuhlmann
+* Updated to Ruby 3.0.1 - Brooke Kuhlmann
+
+== 2.2.0 (2021-04-04)
+
+* Added Git default branch detection - Brooke Kuhlmann
+* Added Ruby garbage collection compaction - Brooke Kuhlmann
+* Updated Code Quality URLs - Brooke Kuhlmann
+* Updated code reviews to use unlock icon - Brooke Kuhlmann
+* Updated to Circle CI 2.1.0 - Brooke Kuhlmann
+* Updated to Docker Alpine Ruby image - Brooke Kuhlmann
+* Updated to Git+ 0.4.0 - Brooke Kuhlmann
+* Updated to Rubocop 1.10.0 - Brooke Kuhlmann
+* Removed Git version - Brooke Kuhlmann
+
+== 2.1.0 (2021-01-19)
+
+* Fixed collector to manually build hash with default array - Brooke Kuhlmann
+* Added GitHub Action - Brooke Kuhlmann
+* Updated Rakefile to enable Git link checks - Brooke Kuhlmann
+* Updated to Gemsmith 15.0.0 - Brooke Kuhlmann
+* Updated to Git 2.30.0 - Brooke Kuhlmann
+* Updated to Git+ 0.2.0 - Brooke Kuhlmann
+* Updated to Rubocop 1.8.0 - Brooke Kuhlmann
+* Removed README Git Cop reference - Brooke Kuhlmann
+
+== 2.0.0 (2020-12-29)
+
+* Fixed Circle CI configuration for Bundler config path - Brooke Kuhlmann
+* Fixed Rubocop Style/RedundantFreeze issues - Brooke Kuhlmann
+* Added Circle CI explicit Bundle install configuration - Brooke Kuhlmann
+* Added Git+ dependency - Brooke Kuhlmann
+* Updated Circle CI Git version - Brooke Kuhlmann
+* Updated implementatation to use Git+ implementation - Brooke Kuhlmann
+* Updated to Refinements 7.18.0 - Brooke Kuhlmann
+* Updated to Refinements 8.0.0 - Brooke Kuhlmann
+* Updated to Ruby 3.0.0 - Brooke Kuhlmann
+* Updated to Runcom 7.0.0 - Brooke Kuhlmann
+* Removed duplicated Git+ implementation - Brooke Kuhlmann
+* Refactored branch reporter to list private methods in call order - Brooke Kuhlmann
+
+== 1.4.0 (2020-12-13)
+
+* Fixed Rubocop Performance/ConstantRegexp issues
+* Fixed Rubocop Performance/MethodObjectAsBlock issues
+* Fixed spec helper to only require tools
+* Added Amazing Print
+* Added Gemfile groups
+* Added Refinements requirement to spec helper
+* Added RubyCritic
+* Added RubyCritic configuration
+* Updated Circle CI configuration to skip RubyCritic
+* Updated Gemfile to put Guard RSpec in test group
+* Updated Gemfile to put SimpleCov in code quality group
+* Updated commit and code review style guides
+* Updated to Refinements 7.15.1
+* Updated to Refinements 7.16.0
+* Removed RubyGems requirement from binstubs
+
+== 1.3.0 (2020-11-14)
+
+* Added Alchemists style guide badge
+* Updated Rubocop gems
+* Updated to Bundler Audit 0.7.0
+* Updated to Gemsmith 14.8.0
+* Updated to RSpec 3.10.0
+* Updated to Refinements 7.14.0
+* Updated to Runcom 6.4.0
+
+== 1.2.0 (2020-11-01)
+
+* Added Bundler Leak development dependency
+* Added GitHub Action automatic environment detection
+* Added GitHub Action branch environment
+
+== 1.1.1 (2020-10-18)
+
+* Fixed Commit Body Bullet Delimiter double bullet false positive
+* Fixed Commit Body Leading Line subject and comment false positive
+* Updated project documentation to conform to Rubysmith template
+
+== 1.1.0 (2020-10-12)
+
+* Fixed Lint/MissingSuper issue
+* Fixed Lint/MixedRegexpCaptureTypes issue with collaborator trailer
+* Fixed README YAML configuration typo
+* Fixed Style/OptionalBooleanParameter issue
+* Added Guard and Rubocop binstubs
+* Added RSpec/MultipleMemoizedHelpers configuration
+* Updated README style guide to include Git and GitHub security settings
+* Updated to Refinements 7.11.0
+* Updated to Rubocop 0.89.0
+* Updated to Ruby 2.7.2
+* Updated to SimpleCov 0.19.0
+* Removed Lint/RedundantCopDisableDirective false positive
+* Removed Style/OptionalBooleanParameter configuration
+
+== 1.0.1 (2020-07-22)
+
+* Fixed README typo
+* Fixed Rubocop Lint/NonDeterministicRequireOrder issues.
+* Fixed project requirements
+* Updated Netlify badge URL
+* Updated README screencast cover to SVG format
+* Updated README to point to Git Rebase Workflow
+* Updated to Gemsmith 14.2.0
+* Refactored Rakefile requirements
+
+== 1.0.0 (2020-06-13)
+
+* Initial implementation and port of the Git Cop project with changes to terminology as necessary.
+  Git Lint is now the offical implementation of this work in order to support the
+  link:https://blacklivesmatter.com[Black Lives Matter] and link:https://8cantwait.org[Defund
+  Police] movements.

@@ -1,0 +1,20 @@
+services:
+  api:
+    build:
+      context: ..
+      dockerfile: ./.devcontainer/Dockerfile
+      args:
+        - PROJECT_NAME=my_git-lint
+        - RUBY_IMAGE_TAG=3.1.2
+        - RUBYGEMS_VERSION=3.3.22
+    restart: always
+    volumes:
+      - ..:/my_git-lint
+      - gem-home:/usr/local/bundle
+      - bashlog:/home/ruby/bashlog
+      - vscode-extensions:/home/ruby/.vscode-server/extensions
+    command: bash -c "while sleep 1000; do :; done"
+volumes:
+  gem-home:
+  bashlog:
+  vscode-extensions:

@@ -1,0 +1,16 @@
+{
+  "name": "my_git-lint",
+  "dockerComposeFile": ["./compose.yml"],
+  "service": "api",
+  "workspaceFolder": "/my_git-lint",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "VisualStudioExptTeam.vscodeintellicode",
+        "noku.rails-run-spec-vscode",
+        "sporto.rails-go-to-spec",
+        "KoichiSasada.vscode-rdbg"
+      ]
+    }
+  }
+}
