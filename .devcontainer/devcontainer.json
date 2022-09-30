@@ -3,6 +3,7 @@
   "dockerComposeFile": ["./compose.yml"],
   "service": "api",
   "workspaceFolder": "/my_git-lint",
+  "postCreateCommand": "bash ./.devcontainer/github-pkg-cred.sh",
   "customizations": {
     "vscode": {
       "extensions": [

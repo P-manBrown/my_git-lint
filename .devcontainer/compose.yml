@@ -11,10 +11,12 @@ services:
     volumes:
       - ..:/my_git-lint
       - gem-home:/usr/local/bundle
+      - github-pkg-cred:/home/ruby/.gem/credentials
       - bashlog:/home/ruby/bashlog
       - vscode-extensions:/home/ruby/.vscode-server/extensions
     command: bash -c "while sleep 1000; do :; done"
 volumes:
   gem-home:
+  github-pkg-cred:
   bashlog:
   vscode-extensions:
